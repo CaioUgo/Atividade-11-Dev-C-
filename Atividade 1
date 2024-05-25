@@ -21,12 +21,17 @@ int main() {
 						}
 					media = totalnotas / 4;
 					printf("total de notas : %f\n", totalnotas);
-					printf("media das notas : %f", media);
-						
-	printf("\n");	
+					printf("media das notas : %f\n", media);
+						if (media < 4) {
+						printf("O aluno esta reprovado\n");
+					} else{
+						if (media >= 4 and media  <=6){
+						printf("O aluno esta de recuperacao\n");
+							}
+					} 
+						if (media > 6) {
+						printf("O aluno esta aprovado\n");
+							}				
+				printf("--------------------------------\n");	
+				   }			
 		}
-	
-		
-	
-		
-}
