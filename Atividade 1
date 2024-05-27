@@ -67,7 +67,7 @@ int main() {
 						if (media < 4) {
 						printf("O aluno esta reprovado\n");
 					} else{
-						if (media >= 4 and media  <=6){
+						if (media >= 4 && media  <=6){
 						printf("O aluno esta de recuperacao\n");
 							}
 					} 
@@ -111,7 +111,7 @@ int main() {
 						if (media < 4) {
 						printf("O aluno esta reprovado\n");
 					} else{
-						if (media >= 4 and media  <=6){
+						if (media >= 4 && media  <=6){
 						printf("O aluno esta de recuperacao\n");
 							}
 					} 
